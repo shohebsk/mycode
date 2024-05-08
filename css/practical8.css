@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    background-color: royalblue;
+}
+.logo h2{
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 60px;
+    background-color: crimson;
+}
+.menu ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .menu li:hover{
+    background-color: antiquewhite;
+} */
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}

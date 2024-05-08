@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100px;
+    display: grid;
+    grid-template-rows: 100px 500px 100px;
+    grid-gap: 10px;
+}
+.header{
+    background-color: deeppink;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.slider{
+    display: grid;
+    grid-template-columns: 400px 1fr 400px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 30px;
+    grid-gap: 10px;
+}
+.slider .s1{
+    background-color: indianred;
+    grid-row: 1/5;
+    border-radius: 10px;
+}
+.slider .s2{
+    background-color: wheat;
+    grid-row: 1/7;
+    border-radius: 10px;
+}
+.slider .s3{
+    background-color: indianred;
+    grid-row: 1/4;
+    border-radius: 10px;
+}
+.slider .s4{
+    background-color: palevioletred;
+    grid-row: 5/13;
+    border-radius: 10px;
+}
+.slider .s5{
+    background-color: orange;
+    grid-row: 4/7;
+    border-radius: 10px;
+}
+.slider .s6{
+    background-color: rgb(98, 151, 231);
+    grid-row: 7/13;
+    grid-column: 2/4;
+    border-radius: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-gap: 10px;
+}
+.footer .f1{
+    background-color: rgb(78, 14, 146);
+    border-radius: 10px;
+}
+.footer .f2{
+    background-color: rgb(234, 220, 31);
+    border-radius: 10px;
+}

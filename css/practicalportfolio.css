@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    min-height: 50px;
+    border: 2px solid black;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    width: 80%;
+    height: 50px;
+    position: fixed;
+    background-color: black;
+    padding-top: 10px;
+    font-size-adjust: 1.1vmax;
+    top: 0;
+}
+nav ul li{
+    display: inline;
+    text-decoration: none;
+}
+nav ul li a{
+    padding-top: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    background-color: cadetblue;
+}
+#section1 {
+    height: 52vw;
+    width: 100%;
+    background-image: linear-gradient(30deg,rgb(238, 139, 135),rgb(155, 236, 155));
+}
+#section1 h2{
+    padding-top: 50px;
+    text-align: center;
+}
+#section2{
+    height: 52vw;
+    width: 100%;
+    background-image: linear-gradient(30deg,rgb(175, 175, 221),rgb(206, 137, 137));
+}
+#section2 h2{
+    padding-top: 50px;
+     text-align: center;
+}
+#section3{
+    height: 52vw;
+    width: 100%;
+    background-image: linear-gradient(30deg,rgb(48, 142, 205),rgb(232, 126, 195));
+}
+#section3 h2{
+    padding-top: 50px;
+    text-align: center;
+}
+#section4{
+    height: 52vw;
+    width: 100%;
+    background-color: rgb(122, 152, 222);
+}
+#section4 h2{
+    padding-top: 50px;
+    text-align: center;
+}
+#section5{
+    height: 52vw;
+    width: 100%;
+    background-color: rgb(255, 205, 254);
+}
+#section5 h2{
+    padding-top: 50px;
+    text-align: center;
+}

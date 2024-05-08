@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "UI",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UI"
+	}
+}

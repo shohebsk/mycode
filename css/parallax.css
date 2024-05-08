@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px gray;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.bg1 {
+    background-image: url(/image/frontend.png);
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg2 {
+    background-image: url(/image/HTML.jpeg);
+    width: 100vw;
+    height: 100vh;
+}
+h2{
+    color: rgb(61, 72, 83);
+}
+.bg3 {
+    background-image: url(/image/css.jpeg);
+    width: 100vw;
+    height: 100vh;
+}
+.bg3 h2{
+    color: black;
+}
+.bg4 {
+    background-image: url(/image/javascript.png);
+    width: 100vw;
+    height: 100vh;
+}

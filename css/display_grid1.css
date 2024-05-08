@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-gap: 10px;
+
+}
+.box .header{
+    
+    background-color: rgb(211, 99, 119);
+}
+.b1{
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    grid-template-rows: 710px;
+    grid-gap: 10px;
+}
+.a1{
+    display: grid;
+    grid-template-rows: 500px 200px;
+    grid-gap: 10px;
+}
+.b1 .a1 .article{
+    background-color: rgb(248, 127, 204);
+}
+.b1 .a1 .footer{
+    background-color: rgb(168, 248, 165);
+}
+.b1 .nav{
+    background-color: rgb(247, 188, 93);
+}
+.b1 .ads{
+    background-color: rgb(139, 239, 237);
+}

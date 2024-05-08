@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0%;
+}
+.si{
+    
+    width: 100%;
+}
+.inner{ 
+    margin-top: 10px;
+    background-color: rgb(172, 255, 248);
+    height: 30px; 
+    size: 150px; 
+}
+.inner h1{
+    
+    color: red;
+    margin-left:500px;
+}
+.si h2{
+      background-color: blue;
+}
+.si p{
+    background-color: beige;
+}
+.si h3{
+    background-color: chartreuse;
+}
+.img{
+    height: 200px;
+    width:80%;
+}

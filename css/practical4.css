@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* .box{
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+} */
+header{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgba(216, 238, 231, 0.763);
+}
+nav{
+    float: right;
+}
+section img{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+}
+section h2{
+    text-align: center;
+    margin-top: 90px;
+}
+article{
+    float: left;
+    margin-top: 20px;
+    width: 450px;
+    height: 400px;
+    margin-left: 10px;
+}
+article img{
+    height: 300px;
+}
+.feeder{
+    width: 40%;
+    height: 700px;
+    float: left;
+}
+
+  
+
